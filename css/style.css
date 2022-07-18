@@ -1,0 +1,386 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.center{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 3000px;
+	margin: 0 auto;
+	padding: 0 2%;
+	background-color: black;	
+}
+
+.logo{
+	width: 50%;
+	background-size: contain;
+	color: azure;
+	padding: 15px;
+	margin-top: 5px;
+	font-family: minhaFonte;
+	font-size: 55px;	
+}
+
+.menu{
+	width: 50%;
+	padding: 30px;
+	text-align: right;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: minhaFonte;	
+}
+
+.menu a{
+	padding: 4px;
+	color: azure;
+	
+}
+
+
+section{
+	width: 100%;
+	padding: 30px;
+	background-image: url(../images/mickey-minnie.jpeg);
+	background-size: cover;
+	background-color: #000;
+	background-attachment: fixed;
+	overflow: hidden;
+	border-radius: 35px;
+	margin-top: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.formContainer{
+	max-width: 240px;
+	background-color: #ffffffbb;
+	text-align: center;
+	margin-left: 45%;
+	padding: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+}
+
+h2{
+	font-size: 20px;
+}
+
+.mb{
+	margin-bottom: 15px;
+}
+
+input, select{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+input[type="submit"]{
+	color: beige;
+	background-color: #48c5ce;
+	font-weight: bold;
+}
+
+.mContainer{
+	margin-top: 30px;
+	margin-bottom: 35px;
+	padding: 50px;
+	font-size: 20px;
+	text-align: center;
+	font-family: minhaFonte;
+}
+
+.Mh{
+	font-size: 65px;
+}
+
+.Li{
+	padding: 10px;
+}
+
+.attractions{
+	text-align: center;
+	font-size: 55px;
+	font-family: minhaFonte;	
+}
+
+.attractions hr{
+	width: 69%;
+	margin-left: 200px;	
+}
+
+.moanaContainer{
+	margin-top: 70px;
+	padding: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+.Moana{
+	display: inline-block;
+        text-align: center;
+        width: 55%;
+        vertical-align: top; 
+        margin: 0 2%;
+		margin-top: 30px;
+        padding: 30px 20px;
+        box-sizing: border-box;
+		font-size: 20px;
+		text-align: left;
+		background-color: #0d131314;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);     
+}
+	
+.frozenContainer{
+	padding: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+}
+
+.Frozen{
+	display: inline-block;
+        text-align: center;
+        width: 55%;
+        vertical-align: top; 
+        margin: 0 2%;
+		margin-top: 35px;
+        padding: 30px 20px;
+        box-sizing: border-box;
+		font-size: 20px;
+		text-align: left;
+		background-color: #0d131314;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aliceContainer{
+	padding: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Alice{
+	display: inline-block;
+        text-align: center;
+        width: 55%;
+        vertical-align: top; 
+        margin: 0 2%;
+		margin-top: 35px;
+        padding: 30px 20px;
+        box-sizing: border-box;
+		font-size: 20px;
+		text-align: left;
+		background-color: #0d131314;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.book{
+	font-size: 18px;
+	color: #ddd;
+	width: 30%;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-top: 18px;
+	margin-bottom: 10px;
+	background-color: rgb(37, 31, 87);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: background 3s linear;	
+}
+
+.book:hover{
+	background: #444;
+}
+
+.Polaroid{
+	margin-left: 10%;
+	text-align: center;
+	width: 80%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.videos{
+	display: block;
+	color: white;
+	font-size: 120px;
+	margin-top: 90px;
+	padding: 50px;
+	text-align: center;
+	width: 100%;
+	background-color: rgb(37, 31, 87);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.trends{
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+.products{
+	display: inline-block;
+        text-align: left;
+        width: 55%;
+        vertical-align: top; 
+        margin: 0 2%;
+		margin-top: 35px;
+        padding: 30px 20px;
+        box-sizing: inherit;
+		font-size: 20px;
+		margin-top: 150px;
+		background-color: #0d131314;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.prod{
+	font-size: 100px;
+	margin-top: 120px;
+	text-align: center;
+	font-family: minhaFonte;
+}
+
+.call{
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 23%;
+	margin: 2px;
+	margin-left: 21px;
+	border: 2px solid #ccc;
+	font-family: arial;
+	text-align: center;
+    display: inline-block;
+  }
+
+  .card:hover{
+	border: 1px solid #777;
+  }
+  
+  .price {
+	color: grey;
+	font-size: 22px;
+  }
+  
+  .card button {
+	border: none;
+	outline: 0;
+	padding: 12px;
+	color: white;
+	background-color:rgb(37, 31, 87);
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+  }
+
+  .card button:hover {
+	opacity: 0.7;
+  }
+
+  .castle{
+	display: block;
+	margin-top: 50px;
+	padding: 100px;
+	box-sizing: border-box;
+	font-size: 20px;
+	text-align: center;
+  }
+
+  .impossible{
+	text-align: center;
+	margin-top: 100px;
+	padding: 10px;
+	font-size: 50px;
+	font-family: minhaFonte;
+  }
+
+  .end{
+    width: 100%;
+    min-height: 250px;
+   background-color: #444;
+    display: flex ;
+  }
+
+  .boxs{
+	width: 30%;
+   min-height: 150px;
+   padding: 20px;
+  }
+
+  .boxs:nth-child(4){
+	width: 400px;
+  }
+
+  .boxs h2{
+	color: #fff;
+	margin-bottom: 20px;
+	font-family: minhaFonte;
+	font-size: 35px;
+  }
+
+  .boxs ul li{
+	margin: 10px 0;
+	list-style: none;
+  }
+
+  .boxs ul li a{
+	color: #ddd;
+	text-decoration: none;
+  }
+
+  .boxs ul li a:hover{
+	color: #fff;
+  }
+
+  .boxs p{
+	color: #fff;
+	text-align: justify;
+  }
+
+  .footer{
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #333;
+	padding: 0px 20px;
+  }
+
+  .footer h2{
+	color: #fff;
+	font-family: minhaFonte;
+  }
+
+  .footer .sociais{
+	display: flex;
+  }
+
+  .sociais .social{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #ddd;
+	margin: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background 3s linear;
+  }
+
+  .sociais .social a{
+	color: #000;
+	font-size: 1.5em;
+	transition: background 3s linear;
+  }
+
+  .sociais .social:hover{
+	background: #444;
+  }
+  
+  .sociais .social:hover a{
+	color: #fff;
+  }
+
